@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <!-- //url: https://cdnjs.com/libraries/hamburgers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="css/ejercicio1.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>DOM: Ejercicios</h1>
+    </header>
+        <!-- https://jonsuh.com/hamburgers/  - libreria de css para hacer el menu  -->
+        <!-- <button class="panel-btn hamburger hamburger--3dx" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button> -->
+
+          <aside class="panel">
+            <nav class="menu">
+                <a href="#seccion1" data-scroll-spy>Reloj digital y alarma sonora</a>
+            </nav>
+          </aside>
+
+          <main>
+            <section id="seccion1" data-scroll-spy class="section">
+                <h2>Reloj digital y alarma sonora</h2>
+                <div id="reloj"></div>
+                <div>
+                    <button id="activar-reloj">Iniciar Reloj</button>
+                    <button id="desactivar-reloj">Detener Reloj</button>
+                    <button id="activar-alarma">Iniciar Alarma</button>
+                    <button id="desactivar-alarma">Detener Alarma</button>
+                </div>
+            </section>
+          </main>
+          <script src="js/index_dom.js" type="module"></script>
+</body>
+</html>
